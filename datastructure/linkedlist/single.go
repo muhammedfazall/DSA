@@ -54,7 +54,9 @@ func main() {
 	list.AddToEnd(10)
 	list.AddToEnd(50)
 	list.AddToEnd(60)
-	list.AddToFront(70)
+	list.AddToFront(05)
+	list.AddToFront(90)
+	list.AddToFront(40)
 
 	list.Display()
 }
