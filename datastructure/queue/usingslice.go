@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 )
 
 type SliceQueue struct {
@@ -21,16 +21,16 @@ func (q *SliceQueue) Dequeue() (int, bool) {
 	return v, true
 }
 
-func main() {
+// func main() {
 
-	qu := SliceQueue{}
+// 	qu := SliceQueue{}
 
-	qu.Enqueue(10)
-	qu.Enqueue(50)
-	qu.Enqueue(60)
-	fmt.Println(qu.items)
+// 	qu.Enqueue(10)
+// 	qu.Enqueue(50)
+// 	qu.Enqueue(60)
+// 	fmt.Println(qu.items)
 
-	v, _ := qu.Dequeue()
-	fmt.Println("dequeued:", v)
-	fmt.Println(qu.items)
-}
+// 	v, _ := qu.Dequeue()
+// 	fmt.Println("dequeued:", v)
+// 	fmt.Println(qu.items)
+// }
