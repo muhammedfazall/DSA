@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func SelectionSort(a []int) {
 	n := len(a)
 
@@ -11,19 +13,19 @@ func SelectionSort(a []int) {
 				min = j
 			}
 
-			if min != i {
-				a[i], a[min] = a[min], a[i]
-			}
+		}
+		if min != i {
+			a[i], a[min] = a[min], a[i]
 		}
 
 	}
 }
 
-// func main() {
+func main() {
 
-// 	a := []int{4, 7, 1, 0, 8, 2, 6, 3}
+	a := []int{4, 7, 1, 0, 8, 2, 6, 3}
 
-// 	SelectionSort(a)
+	SelectionSort(a)
 
-// 	fmt.Println(a)
-// }
+	fmt.Println(a)
+}

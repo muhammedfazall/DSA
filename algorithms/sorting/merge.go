@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func MergeSort(arr []int) []int {
 
 	if len(arr) <= 1 {
@@ -36,10 +34,10 @@ func Merge(left, right []int) []int {
 	return result
 }
 
-func main() {
-	arr := []int{8, 3, 5, 2, 9, 1}
+// func main() {
+// 	arr := []int{8, 3, 5, 2, 9, 1}
 
-	sorted := MergeSort(arr)
+// 	sorted := MergeSort(arr)
 
-	fmt.Println("sorted : ", sorted)
-}
+// 	fmt.Println("sorted : ", sorted)
+// }
